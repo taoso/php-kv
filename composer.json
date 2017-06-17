@@ -1,0 +1,25 @@
+{
+    "name": "lvht/kv",
+    "authors": [
+        {
+            "name": "吕海涛",
+            "email": "git@lvht.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lvht\\Key\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lvht\\Key\\": "./tests"
+        }
+    },
+    "require": {
+        "ext-pdo_sqlite": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    }
+}
